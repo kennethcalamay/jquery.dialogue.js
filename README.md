@@ -78,11 +78,17 @@ Not a problem! Just find and override your rails.js w/ this code. If someone els
         return false; 
     }); 
 
+And you'll now be able to use it w/o changing anything on your rails code! Awesome eh?
 
+    <%= link_to 'foo', 'bar', :confirm => "Are you sure?" %>
 
-Contributing
+or
+
+    <%= link_to 'foo', 'bar', :method => :delete, :remote => true, :confirm => "Are you sure?" %>
+
+Contributing/Issues
 ------------
-Want to contribute? Great! Don't hesitate :D
+Want to contribute? Issues? Great! Don't hesitate :D
 
 
 License
