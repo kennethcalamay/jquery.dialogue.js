@@ -39,7 +39,7 @@ $.dialogue = {
     // dialog position
     $('.dialogueOuter')
       .css("left", ($(window).width() - $('.dialogueOuter').width()) / 2 + $(window).scrollLeft() + "px")   
-      .css("top", (($(window).height() - $('.dialogueOuter').height()) / 2 + $(window).scrollTop()) - $('.dialogueOuter').height() + "px")
+      .css("top", options['top'])
         .fadeIn(200)
       .append('<div class="dialogueInner"></div>');    
 
@@ -185,7 +185,8 @@ $.dialogue.options = {
   'titleText' : 'Alert', // Title text
   'defaultText' : '',
   'width' : 'auto',
-  'height' : 'auto'
+  'height' : 'auto',
+  'top' : '100px'
 };
 
 
