@@ -29,7 +29,7 @@ $.dialogue = {
       $('.dialogueOuter').css('width', options['width']);
 
     if(options['height'])
-      $('.dialogueOuter').css('height', options['height']);
+      $('.dialogueInner').css('height', options['height']);
 
   
     // dialog title

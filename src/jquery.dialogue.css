@@ -7,20 +7,14 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.25);
 	display: none;
 }
 
-.dialogueOuter {
-	background: #FFF;
-/*border: 1px solid #fff;*/
-	box-shadow: 0 3px 7px #333;
-	-moz-box-shadow: 0 3px 7px #333;
-	-webkit-box-shadow: 0 3px 7px #333;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-	-khtml-border-radius: 4px;
+.dialogueOuter
+ {
+	-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+	-webkit-box-shadow: #666 0px 0px 9px; -moz-box-shadow: #666 0px 0px 9px; box-shadow: #666 0px 0px 9px;	
 	position: absolute;
 	z-index: 99999999;
 	min-width: 200px;
@@ -28,6 +22,7 @@
 	max-width: 75%;
 	position: fixed;
 	display: none;
+	border: 10px solid transparent;
 }
 
 .dialogueOuter .dialogueTitle {
@@ -38,6 +33,13 @@
 	text-align: left;
 	padding: 5px;
 	color: #FFF;
+	-moz-border-radius-topleft: 2px;
+	-moz-border-radius-topright: 2px; 
+	-webkit-border-top-left-radius: 2px; 
+	-webkit-border-top-right-radius: 2px;
+	border-top-left-radius: 2px; 
+	border-top-right-radius: 2px;
+	
 }
 
 .dialogueInner {
@@ -47,7 +49,14 @@
 	text-align: center;
 	font-weight: 700;
 	font-size: 14px;
-  margin-bottom: 10px;
+	background: #fff;
+	-moz-border-radius-bottomleft: 2px;
+	-moz-border-radius-bottomright: 2px; 
+	-webkit-border-bottom-left-radius: 2px; 
+	-webkit-border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px; 
+	border-bottom-right-radius: 2px;
+	
 }
 
 .dialogueContent  {
