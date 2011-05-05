@@ -45,8 +45,10 @@ More Examples
 
 Themes
 -------
-Coming soon!
 
+### Facebook LOL. Use this CSS file.
+
+    <link href="src/jquery.dialogue-fb.css" rel="stylesheet" media="screen" type="text/css" /a>
 
 Ruby on Rails?
 -------
